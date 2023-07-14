@@ -731,3 +731,93 @@ a {
 .blog .blog-dots .dot.active {
   background-color: var(--primary-color);
 }
+
+/************* Footer *************/
+.footer {
+  background: #2e2100;
+  padding-top: 96px;
+}
+
+.footer .footer-row {
+  display: flex;
+  padding-bottom: 38px;
+  border-bottom: 1px solid #59554b;
+}
+
+.footer .footer-column {
+  width: 21.66%;
+}
+
+.footer .footer-column:first-child {
+  width: 35%;
+}
+
+.footer .footer-row .footer-column .desc {
+  color: #bfbcb2;
+  font-family: Poppins;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.85;
+  max-width: 267px;
+  margin-top: 18px;
+  margin-bottom: 18px;
+}
+
+.footer .footer-row .footer-column .social {
+  display: flex;
+  gap: 18px;
+}
+
+.footer .footer-row .footer-column .title {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.75;
+  padding-bottom: 14px;
+  padding-right: 40px;
+  border-bottom: 1px solid #59554b;
+  display: inline-block;
+  margin-bottom: 28px;
+}
+
+.footer .footer-row .footer-column p,
+.footer .footer-row .footer-column ul li a {
+  color: #bfbcb2;
+  font-family: Poppins;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.85;
+}
+
+.footer .footer-row .footer-column p strong {
+  font-weight: 600;
+  color: #fff;
+}
+
+.footer .footer-row .footer-column ul li,
+.footer .footer-row .footer-column p {
+  max-width: 231px;
+  margin-bottom: 12px;
+}
+
+.footer .footer-row .footer-column p:last-child,
+.footer .footer-row .footer-column ul li:last-child {
+  margin-bottom: 0;
+}
+
+.copyright {
+  padding: 28px 0;
+}
+
+.copyright p {
+  color: #807d74;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 400;
+}
